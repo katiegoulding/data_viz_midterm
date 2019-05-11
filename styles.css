@@ -1,0 +1,49 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    font: 12px sans-serif;
+    border: 0px;
+    pointer-events: none;
+}
+
+/* add styling to fix tool tip hover over text */
+#tooltip_head {
+    color: red;
+    font: 20px sans-serif;
+    font-weight: bold;
+    height: 20px;
+    text-align: left;
+}
+
+#left_info {
+    color: #57A0D3;
+    font-size: 12px;
+    text-align: left;
+    display: inline;
+}
+
+#right_info {
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+    text-align: right;
+    display: inline;
+}
